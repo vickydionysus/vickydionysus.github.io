@@ -31,7 +31,7 @@
 **********************************************/
 
 @import 'https://fonts.googleapis.com/css?family=Raleway|Josefin+Sans|Varela+Round';
-/*** 
+/***
 
 ====================================================================
         Reset
@@ -53,7 +53,7 @@
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }*/
-/*** 
+/***
 
 ====================================================================
         Global Settings
@@ -68,7 +68,7 @@
     border:none;
     border-top: 2px solid #eb2e4a;
 }
-.dropdown-menu > li > a {    
+.dropdown-menu > li > a {
     padding: 10px 20px;
 }
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
@@ -84,7 +84,7 @@ body {
     font-family: 'Varela Round', sans-serif;
     font-size: 14px;
     color: #777777;
-    line-height: 24px;    
+    line-height: 24px;
     background: #ffffff;
 }
 .body-bg{
@@ -104,7 +104,7 @@ section{
     margin-bottom: 30px;
     position: relative;
     font-family: 'Raleway', sans-serif;
-    padding-bottom: 10px;    
+    padding-bottom: 10px;
 }
 .section-title > span{
     color:#eb2e4a;
@@ -131,11 +131,11 @@ section{
     left: calc(50% - 60px);
     border-radius: 30%;
 }
-.section-tagline {        
+.section-tagline {
     font-size: 15px;
     padding: 0px 200px;
-    text-align: center;    
-    margin-bottom: 30px;  
+    text-align: center;
+    margin-bottom: 30px;
 }
 a {
     text-decoration: none;
@@ -152,7 +152,7 @@ a:visited {
     transition: all 0.5s ease;
 }
 /*=======================================
-   TYPOGRAPHY               
+   TYPOGRAPHY
 =========================================*/
 h1,
 h2,
@@ -164,33 +164,33 @@ h6 {
     position: relative;
     font-weight: normal;
     margin: 0px;
-    background: none;    
+    background: none;
     color:#555;
 }
 h1 {
-	font-size: 32px;	
+	font-size: 32px;
         line-height: 42px;
 }
 h2 {
 	font-size: 30px;
-	line-height: 40px;	
+	line-height: 40px;
 }
 h3 {
 	font-size: 28px;
-	line-height: 38px;	
+	line-height: 38px;
 }
 h4 {
 	font-size: 26px;
-	line-height: 36px;	
+	line-height: 36px;
 }
 
 h5 {
 	font-size: 24px;
-	line-height: 30px;	
+	line-height: 30px;
 }
 h6 {
 	font-size: 22px;
-	line-height: 28px;	
+	line-height: 28px;
 }
 p {
     position: relative;
@@ -198,7 +198,7 @@ p {
     color: #777;
 }
 /*=======================================
-   /TYPOGRAPHY               
+   /TYPOGRAPHY
 =========================================*/
 ul,
 li {
@@ -228,9 +228,9 @@ li {
     position: absolute;
     top:-16px;
     left: 0;
-    color:#f2f2f2;  
+    color:#f2f2f2;
     font-weight: 100;
-    transition: all 1s ease-in-out;    
+    transition: all 1s ease-in-out;
     color: #eb2e4a;
 }
 .btn{
@@ -313,10 +313,10 @@ li {
     transition: all 0.5s ease;
 }
 .gototop:hover{
-    opacity: 1!important;    
+    opacity: 1!important;
     color: #EB2E4A;
 }
-/*** 
+/***
 
 ====================================================================
         4. Main Header
@@ -345,9 +345,9 @@ li {
     min-height: 0;
 }
 .main-header .navbar-nav > li > a {
-    color: #f2f2f2;    
+    color: #f2f2f2;
     font-weight: 400;
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
@@ -373,7 +373,7 @@ li {
 .main-header .navbar-nav > .active > a:hover,
 .main-header .navbar-nav > .active > a:focus {
     color: #eb2e4a;
-    background-color: #080808;    
+    background-color: #080808;
 }
 .main-header .navbar-nav li a:hover figure > img {
     bottom: -32px;
@@ -386,7 +386,7 @@ li {
     max-height: 240px;
 }
 
-/*** 
+/***
 
 ====================================================================
         5. Main banner
@@ -415,7 +415,7 @@ li {
     height: 100%;
     z-index: 9;
 }
-.banner-content {        
+.banner-content {
     color: #FFF;
     height: 100%;
     position: absolute;
@@ -435,9 +435,9 @@ li {
     font-size: 4em;
     line-height: 1em;
 }
-.invite {    
+.invite {
     color: #FFF;
-    font-size: 20px;    
+    font-size: 20px;
     text-transform: uppercase;
 }
 .names div {
@@ -448,7 +448,7 @@ li {
     font-size: 28px;
     padding: 0 30px;
 }
-/*** 
+/***
 
 ====================================================================
         6. Couple Section
@@ -456,7 +456,7 @@ li {
 
 ***/
 .couple-hex{
-    padding-top:54px; 
+    padding-top:54px;
 }
 .hexagon {
     overflow: hidden;
@@ -487,7 +487,7 @@ li {
     height: 100%;
     padding: 0px 12px;
     text-align: center;
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     background: #f1f4f5;
     visibility: visible;
     -webkit-transform: rotate(-60deg);
@@ -502,14 +502,14 @@ li {
     vertical-align: middle;
 }
 .hex-title{
-    display: inline-block;        
+    display: inline-block;
     margin-bottom: 5px;
 }
 .hex-title > span{
     color: #EB2E4A;
 }
 .hexagon-in2 p {
-    position: relative;    
+    position: relative;
 }
 .hexagon-in2.groom{
     background-image: url('../images/retina/couple/groom.jpg');
@@ -526,7 +526,7 @@ li {
 }
 .hex-quote{
     background: #EB2E4A;
-    color: #FFF;    
+    color: #FFF;
 }
 .hex-quote h4{
     font-size: 22px;
@@ -546,7 +546,7 @@ li {
     color: #FFF;
     display: inline-block;
     width: 30px;
-    height: 30px;   
+    height: 30px;
     margin-right: 5px;
     top: 0;
     left: 0;
@@ -564,31 +564,31 @@ li {
     margin-bottom: 20px;
     padding: 20px 50px 0;
 }
-.couple-container:hover figure img{        
+.couple-container:hover figure img{
     transform: scale(1.1);
 }
-.couple-container h2 {    
-    text-transform: capitalize;    
-    font-size: 2.2em;    
+.couple-container h2 {
+    text-transform: capitalize;
+    font-size: 2.2em;
     color:#222;
 }
-.couple-container h4 {    
-    color: #eb2e4a;    
+.couple-container h4 {
+    color: #eb2e4a;
 }
-.couple-container figure img{    
+.couple-container figure img{
     width: 300px;
     margin-bottom: 20px;
     -webkit-transition: all 5s ease;
     transition: all 5s ease;
 }
-.couple-container .name-container{    
+.couple-container .name-container{
     margin-top: -4px;
     border-bottom: 4px solid #eb2e4a;
     background: #FFF;
     padding: 0 15px;
 }
-.couple-container .paragraph {    
-    padding: 5px 0px;       
+.couple-container .paragraph {
+    padding: 5px 0px;
     text-align: justify;
     margin: 0;
 }
@@ -650,7 +650,7 @@ li {
 
 
 
-/*** 
+/***
 
 ====================================================================
         7. Parallax Section
@@ -668,7 +668,7 @@ li {
     color: #ffffff;
     text-align: center;
 }
-.parallax-section h2 {    
+.parallax-section h2 {
     padding: 100px 10%;
     font-size: 3em;
     color: #FFF;
@@ -686,7 +686,7 @@ li {
 .parallax-section h2 > span{
     color:#eb2e4a;
 }
-/*** 
+/***
 
 ====================================================================
         8. Event Section
@@ -756,7 +756,7 @@ li {
     background-color: #EB2E4A;
 }
 
-.event-desc .event-name {    
+.event-desc .event-name {
     color: #FFF;
     padding: 5px 0;
     text-align: center;
@@ -777,10 +777,10 @@ li {
     left: calc(50% - 50px);
 }
 .event-desc .event-para {
-    padding: 10px 10px 0;    
+    padding: 10px 10px 0;
 }
 .event-desc .content {
-    display: block; 
+    display: block;
     padding: 0px 10px;
 }
 .event-desc .content i {
@@ -797,7 +797,7 @@ li {
     text-align: center;
     margin: 3px;
 }
-.style-2 .on-at {    
+.style-2 .on-at {
     text-align: center;
     display: block;
     color: #eb2e4a;
@@ -805,7 +805,7 @@ li {
     margin: 3px;
     font-family: 'Raleway', sans-serif;
 }
-/*** 
+/***
 
 ====================================================================
         9. Love Story Section
@@ -878,7 +878,7 @@ li {
     top: 10px;
     left: -10px;
 }
-.story-content h3 {   
+.story-content h3 {
     font-size: 24px;
     text-transform: capitalize;
     padding: 0 0 10px 0;
@@ -894,7 +894,7 @@ li {
     bottom: 10px;
 }
 .story-content h3 > span {
-    color: #eb2e4a;    
+    color: #eb2e4a;
 }
 .story-content p{
     margin-top: 10px;
@@ -933,7 +933,7 @@ li {
     top:3px;
 }
 
-/*** 
+/***
 
 ====================================================================
         10. Timer Section
@@ -944,7 +944,7 @@ section#timer{
     overflow: visible;
 }
 #timer{
-    position: relative;    
+    position: relative;
     /*background: #f2f2f2;*/
 }
 .timer-icon{
@@ -1065,7 +1065,7 @@ section#timer{
 .counter-block .counter-caption {
     padding: 10px 0;
     color: #eb2e4a;
-    font-weight: bold;    
+    font-weight: bold;
     text-transform: uppercase;
 }
 @media (max-width: 1024px) {
@@ -1151,7 +1151,7 @@ section#timer{
     }
 }
 
-/*** 
+/***
 
 ====================================================================
         11. Gallery Section
@@ -1179,9 +1179,9 @@ section#timer{
 }
 #Gallery .filter li a{
     display: inline-block;
-    border:2px solid #eb2e4a;    
-    padding: 10px 20px;    
-    margin: 0 10px 5px 0;    
+    border:2px solid #eb2e4a;
+    padding: 10px 20px;
+    margin: 0 10px 5px 0;
     cursor: pointer;
 }
 #Gallery .filter li.active a{
@@ -1228,11 +1228,11 @@ section#timer{
     transition: all 0.5s ease;
 }
 .gallery-hover h5 {
-    margin: 5px 0;        
+    margin: 5px 0;
     color: #FFF;
 }
 .gallery-hover h5::first-letter {
-    color: #eb2e4a;    
+    color: #eb2e4a;
 }
 .gallery-hover .btn-gallery {
     border: 1px solid #eb2e4a;
@@ -1245,7 +1245,7 @@ section#timer{
     transition: all 0.5s ease;
 }
 .gallery-hover .btn-gallery:hover {
-    background: #eb2e4a;        
+    background: #eb2e4a;
 }
 .gallery-hover .btn-search {
     transition-delay: 0.3s;
@@ -1253,7 +1253,7 @@ section#timer{
 .gallery-hover .btn-share {
     transition-delay: 0.5s;
 }
-/*** 
+/***
 
 ====================================================================
         12. Bless Us
@@ -1290,7 +1290,7 @@ section#timer{
     font-weight: bold;
     color: #FFF;
 }
-.blessus form {   
+.blessus form {
     padding: 50px 20px;
     background: #262626;
 }
@@ -1322,7 +1322,7 @@ section#timer{
 .blessus .btn-bless {
     background: #eb2e4a;
     color: #FFFFFF;
-    width: 50%;    
+    width: 50%;
     border-radius: 0;
 }
 .wish {
@@ -1417,7 +1417,7 @@ section#timer{
 }
 
 
-/*** 
+/***
 
 ====================================================================
         13. Maid Section
@@ -1449,8 +1449,8 @@ section#timer{
     background: #FFF;
 }
 .maids .friend .name h2 {
-    display: inline-block;    
-    font-size: 1.8em;    
+    display: inline-block;
+    font-size: 1.8em;
     color: #FFF;
     background: #eb2e4a;
     width: 65%;
@@ -1458,7 +1458,7 @@ section#timer{
     padding: 6px;
 
 }
-.maids .friend .name small {    
+.maids .friend .name small {
     color: #222;
     display: block;
     font-family: 'Raleway', sans-serif;
@@ -1487,13 +1487,13 @@ section#timer{
     transition: all 0.5s ease;
 }
 .maids .friend .social a:hover {
-    background:  #222222;    
+    background:  #222222;
 }
 .maids .friend .social a:hover i{
     color: #eb2e4a;
 }
 
-/*** 
+/***
 
 ====================================================================
         14. Map Section
@@ -1522,7 +1522,7 @@ section#timer{
 .map-address >p{
     color: #DDD;
 }
-/*** 
+/***
 
 ====================================================================
         15. RSVP Section
@@ -1535,7 +1535,7 @@ section#timer{
     background: url(../images/retina/rsvp.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;   
+    background-attachment: fixed;
 }
 .rsvp:before {
     content: '';
@@ -1573,7 +1573,7 @@ section#timer{
 }
 .rsvp .btn {
     background: #eb2e4a;
-    color: #FFFFFF;    
+    color: #FFFFFF;
     border-radius: 0;
 }
 .rsvp .form-control:focus,
@@ -1586,7 +1586,7 @@ section#timer{
     font-size: 17px;
     color: #939393;
 }
-/*** 
+/***
 
 ====================================================================
         16. Blog
@@ -1596,9 +1596,9 @@ section#timer{
 .blog{
     background: #f2f2f2;
 }
-.blog-container{    
+.blog-container{
     background: #FFF;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;
 }
 .blog-img{
     padding: 5px;
@@ -1607,7 +1607,7 @@ section#timer{
     margin: 0 auto;
 }
 .blog-desc{
-    padding: 10px;    
+    padding: 10px;
     position: relative;
 }
 .blog-desc .title{
@@ -1641,7 +1641,7 @@ section#timer{
     margin-left: 5px;
 }
 .blog-desc p{
-    font-size: 14px;    
+    font-size: 14px;
     margin-top: 5px;
     color: #939393;
     line-height: 22px;
@@ -1652,11 +1652,11 @@ section#timer{
     border-radius: 0;
     outline: 0;
     margin: 0 auto;
-    display: table;    
+    display: table;
     font-size: 14px;
     margin-bottom: 5px;
 }
-/*** 
+/***
 
 ====================================================================
         17. Footer
@@ -1684,7 +1684,7 @@ section#timer{
     text-align: center;
 }
 .footer .footer-names h4 {
-    text-align: center;    
+    text-align: center;
     color: #f2f2f2;
     font-size: 26px;
     margin-bottom: 30px;
@@ -1720,7 +1720,7 @@ section#timer{
     display: table;
 }
 .footer #instafeed{
-    margin: 30px 0 50px;    
+    margin: 30px 0 50px;
     text-align: center;
 }
 #instafeed li{
@@ -1731,9 +1731,9 @@ section#timer{
     width: 70px;
     border-radius: 100%;
     margin: 0 5px;
-    border: 2px solid #eb2e4a; 
+    border: 2px solid #eb2e4a;
 }
-/*** 
+/***
 
 ====================================================================
         18. Event Page 1
@@ -1765,7 +1765,7 @@ section.page{
     text-shadow: 1px 1px 0px #000;
     font-size: 3em;
 }
-/*** 
+/***
 
 ====================================================================
         19. Fade Banner
@@ -1858,7 +1858,7 @@ section.page{
     display:block;
 }
 
-/*** 
+/***
 
 ====================================================================
         20. 404 Page
@@ -1884,7 +1884,7 @@ section.page{
 }
 
 .error-line{
-    margin: 50px auto;    
+    margin: 50px auto;
     font-size: 40px;
     line-height: 40px;
     letter-spacing: 1px;
@@ -1903,7 +1903,7 @@ section.page{
     color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
         21. Blog Page
@@ -1946,7 +1946,7 @@ section.page{
 }
 
 .blog-detail-desc .title{
-    color: #262626;    
+    color: #262626;
 }
 
 .tags li{
@@ -1972,8 +1972,8 @@ section.page{
     color: #000;
 }
 
-.blog-detail-desc p{    
-    text-align: justify;    
+.blog-detail-desc p{
+    text-align: justify;
     color: #939393;
 }
 
@@ -2065,8 +2065,8 @@ section.page{
 .comment img{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
 }
-.comment-text{    
-    margin: 5px 0;    
+.comment-text{
+    margin: 5px 0;
 }
 .comment-form{
     background-color: #262626;
@@ -2112,7 +2112,7 @@ section.page{
     color: #999;
     cursor: default;
 }
-/*** 
+/***
 
 ====================================================================
         22. Blog Page Sidebar
@@ -2143,7 +2143,7 @@ section.page{
     margin: 0 auto;
     display: table;
 }
-.widget.about .about-name{    
+.widget.about .about-name{
     color: #262626;
     margin: 10px 0 0;
 }
@@ -2224,7 +2224,7 @@ section.page{
 }
 
 
-/*** 
+/***
 
 ====================================================================
         23. Success & Error Messages
@@ -2241,14 +2241,14 @@ section.page{
     padding-right: 0 !important;
 }
 
-.successMessage .modal-content{    
+.successMessage .modal-content{
     color: #fff;
-    text-align: center; 
+    text-align: center;
     border: 0;
     box-shadow: 0 9px 21px 0 rgba(0, 0, 0, 0.65);
 }
 
-.successMessage .modal-content{    
+.successMessage .modal-content{
     background-color: #6ABC6E;
 }
 
@@ -2259,11 +2259,11 @@ section.page{
 
 .successMessage .close{
     font-size: 30px;
-    font-weight: normal; 
+    font-weight: normal;
     line-height: 15px;
     color: #fff;
-    text-shadow: none; 
-    opacity: 1; 
+    text-shadow: none;
+    opacity: 1;
     z-index: 1;
     position: absolute;
     top: -15px;
@@ -2274,7 +2274,7 @@ section.page{
     margin: 125px auto 0;
 }
 
-/*** 
+/***
 
 ====================================================================
         24. Demo Page
@@ -2348,7 +2348,7 @@ section.page{
     border-radius: 0;
     outline: 0;
     margin: 0 auto;
-    display: table;    
+    display: table;
     font-size: 14px;
 }
 
@@ -2396,7 +2396,7 @@ section.page{
     z-index: -1;
 }
 
-.buy-prom h1{    
+.buy-prom h1{
     font-size: 3.2em;
     margin-bottom: 25px;
 }
@@ -2409,7 +2409,7 @@ section.page{
     font-size: 17px;
     margin-bottom: 25px;
 }
-/*** 
+/***
 
 ====================================================================
         24. Gift Section
@@ -2423,7 +2423,7 @@ section.page{
     text-align: center;
 }
 .gift-container:hover .gift-desc{
-    background: rgba(235, 46, 74, 0.99);   
+    background: rgba(235, 46, 74, 0.99);
 }
 .gift-container:hover .gift-img img{
     transform: scale(1.1);
@@ -2436,7 +2436,7 @@ section.page{
 }
 .gift-container .gift-img{
     position: relative;
-    overflow: hidden;    
+    overflow: hidden;
 }
 .gift-container .gift-img img{
     -webkit-transition: all 0.5s ease;
@@ -2448,10 +2448,10 @@ section.page{
     left:0;
     background: RGBA(0, 0, 0, 0.8);
     width:100%;
-    height: 100%;    
+    height: 100%;
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
-}   
+}
 .gift-container .gift-desc .gift-table{
     display: table;
     height: 100%;
@@ -2472,7 +2472,7 @@ section.page{
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-/*** 
+/***
 
 ====================================================================
         25. Hotel Accomodation Section
@@ -2481,7 +2481,7 @@ section.page{
 ***/
 .hotel-bg{
     background: #EB2E4A;
-    padding: 78px 30px;    
+    padding: 78px 30px;
 }
 .hotel-bg h1,.hotel-bg h2,.hotel-desc h3{
     color:#FFF;
@@ -2507,7 +2507,7 @@ section.page{
     text-align: center;
     padding: 10px;
 }
-.hotel-ul li{    
+.hotel-ul li{
     padding: 0;
     float: left;
 }
@@ -2528,7 +2528,7 @@ section.page{
 }
 .hotel-container:hover .hotel-desc .btn{
     bottom:20px;
-    
+
 }
 .hotel-ul li .hotel-container:before{
     content: '';
@@ -2553,7 +2553,7 @@ section.page{
     -webkit-transition: all 0.5s ease;
     transition: all 0.5s ease;
 }
-/*** 
+/***
 
 ====================================================================
         26. Play Music
@@ -2617,7 +2617,7 @@ section.page{
     border-left: 7px solid #EB2E4A;
     box-shadow: inset 6px 0 0 0 RGBA(0, 0, 0, 0.7);
 }
-/*** 
+/***
 
 ====================================================================
         27. Snow Fall
@@ -2642,7 +2642,7 @@ section.page{
     background: #EB2E4A;
     left: 18px;
     top: -5px;
-    transform: rotate(50deg);    
+    transform: rotate(50deg);
 }
 #snow.active:after{
     content: none;
@@ -2652,4 +2652,22 @@ section.page{
 }
 .disp-block{
     display: block;
+}
+.hexagon-in2.groom {
+  background-image: url(muthuvel-1.jpg);
+  background-position: center;
+  background-size: cover;
+
+  content: "";
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  z-index: -1;
+  -webkit-transform: rotate(30deg);
+  -moz-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
 }
