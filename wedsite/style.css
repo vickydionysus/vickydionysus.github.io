@@ -2658,3 +2658,15 @@ section.page{
   background-position: center;
   background-size: cover;
 }
+.hexagon-in2.bride {
+  background-image: url(vandana.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.up-icon {
+  background-image: url(up.png);
+  background-size: 100% 100%;
+  width: 20px;
+    height: 20px;
+    margin-left: 9px;
+}
