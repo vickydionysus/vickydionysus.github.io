@@ -2,7 +2,7 @@
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
     .navbar .navbar-nav > li > a {
         padding: 10px 12px;
-    } 
+    }
     .hexa-gap{
         margin-left: 0 !important;
     }
@@ -35,10 +35,10 @@
         width: 100%;
         margin: -110px 0 0 0;
     }
-    .hotel-bg {        
+    .hotel-bg {
         padding: 50px 30px;
     }
-    .hotel-bg .tag-line {        
+    .hotel-bg .tag-line {
         font-size: 2.88em;
     }
 }
@@ -56,7 +56,7 @@
     .slider-banner {
         min-height: 450px;
     }
-    #slideshow img{ 
+    #slideshow img{
         height: 100%!important;
     }
     .banner-content{
@@ -72,7 +72,7 @@
         height: 500px;
     }
 }
-@media only screen and (max-width: 767px){	
+@media only screen and (max-width: 767px){
     .navbar{
         min-height: 70px;
     }
@@ -96,6 +96,10 @@
     }
     #Banner {
         margin-top: 70px;
+        padding-bottom: 50px;
+    }
+    .main-banner:before {
+      height: 400px;
     }
     .main-banner{
         height: 400px;
@@ -127,12 +131,12 @@
         vertical-align: middle;
         width: auto;
     }
-    .story-section {        
+    .story-section {
         padding: 20px 0;
     }
     .story-content.left,.story-content.right{
         margin: 0;
-        margin-bottom:20px; 
+        margin-bottom:20px;
     }
     .story-date{
         width:100px;
@@ -165,7 +169,7 @@
     .banner-content .names {
         font-size: 3em;
     }
-    #slideshow img{ 
+    #slideshow img{
         height: 100%!important;
     }
     /*    .gallery-container ,.maids .friend{
@@ -184,7 +188,7 @@
         margin: 15px 0;
         font-size: 30px;
     }
-    .section-tagline {    
+    .section-tagline {
         padding: 15px 15px 0;
     }
     .couple-content.left .social,.couple-content.right .social{
@@ -194,7 +198,7 @@
     }
     .couple-content .social a{
         display: inline-block;
-    } 
+    }
     .couple-hex {
         padding-top: 0px;
     }
@@ -210,7 +214,7 @@
     }
     .story-section .met::before,.story-section .propose::before,.story-section .engage::before,.story-content.left:after,.story-content.right:after{
         content: none;
-    }    
+    }
     .story-section .propose,.story-section .engage {
         margin-top: 50px;
     }
@@ -231,20 +235,20 @@
     .insta > li {
         width: 33%;
     }
-    .hotel-ul li {        
-        padding: 0;        
+    .hotel-ul li {
+        padding: 0;
         width: 100% !important;
     }
     .hotel-ul li:nth-child(1){
         margin-top: 10px;
     }
-    .hotel-bg {        
+    .hotel-bg {
         padding: 40px 30px;
     }
     .hotel-bg .title {
         font-size: 20px;
     }
-    .hotel-bg .tag-line {    
+    .hotel-bg .tag-line {
         font-size: 2.5em
     }
     .hotel-desc h3{
